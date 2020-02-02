@@ -18,7 +18,9 @@ if(!cron.validate(cronExpression)){
 
 
 var message = '';
-cron.schedule('*/1 9-20 * * *', ()=> {
+
+//every one minute  */1 9-15 * * *
+cron.schedule('*/15 9-15 * * *', ()=> {
     axios.get(url).then(response => {
         console.log('Received the response');
         message = getData(response.data);
