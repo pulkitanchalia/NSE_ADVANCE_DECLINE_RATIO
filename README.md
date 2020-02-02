@@ -1,9 +1,12 @@
 # NSE_ADVANCE_DECLINE_RATIO
 Shows NSE Stocks Advance/ Decline count &amp; Ratio 
 
+prerequisite
+NodeJs
+
 Usage:
 npm install
-nom start
+npm start
 
 - Currently scheduled to run every 15 minutes, which can be changed in index.js (cron expression)
 
