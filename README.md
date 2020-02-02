@@ -6,3 +6,5 @@ npm install
 nom start
 
 - Currently scheduled to run every 15 minutes, which can be changed in index.js (cron expression)
+
+<img src="/images/ss.JPG" alt="My cool logo"/>
